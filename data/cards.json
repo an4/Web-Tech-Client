@@ -1,0 +1,17 @@
+[
+    {
+        "id" : "marienplatz",
+        "imageUrl" : "extra/marienplatz.png",
+        "title" : "Marienplatz"
+    },
+    {
+        "id" : "englischergarten",
+        "imageUrl" : "extra/englischergarten.png",
+        "title" : "Englischer Garten"
+    },
+    {
+        "id" : "deutschesmuseum",
+        "imageUrl" : "extra/deutschesmuseum.png",
+        "title" : "Deutsches Museum"
+    }
+]
