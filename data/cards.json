@@ -2,16 +2,19 @@
     {
         "id" : "marienplatz",
         "imageUrl" : "extra/marienplatz.png",
-        "title" : "Marienplatz"
+        "title" : "Marienplatz",
+        "text" : "The best place to start your Munich sightseeing tour."
     },
     {
         "id" : "englischergarten",
         "imageUrl" : "extra/englischergarten.png",
-        "title" : "Englischer Garten"
+        "title" : "Englischer Garten",
+        "text" : "One of the largest urban parks in the world."
     },
     {
         "id" : "deutschesmuseum",
         "imageUrl" : "extra/deutschesmuseum.png",
-        "title" : "Deutsches Museum"
+        "title" : "Deutsches Museum",
+        "text" : "The world's largest museum of science and technology."
     }
 ]
