@@ -8,7 +8,7 @@ html, body {
 	position: relative;
 	width: 100%;
 	height: 20%;
-	background: #3F51B5;
+	background: #2962ff;
 	padding: 0% 5% 0% 5%;
 	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
@@ -34,7 +34,7 @@ html, body {
 
 .card-preview {
 	border-radius: 5px;
-	background: #3D5AFE;
+	background: #FFF;
 	height: 330px;
 	width: 300px;
 	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
@@ -68,21 +68,28 @@ img {
 	width: 100%;
 	height: 43px;
 	font-weight: 900;
-	color: #FFFFFF;
+	color: rgba(255,255,255,0.87);
 	float: left;
 	font-size: 20px;
 	text-align:left;
 	padding:8px 12px 8px 12px;
 	clear:both;
+	background: #2979ff;
+
+}
+
+.card-preview-title p {
+	opacity: 0.54;
 }
 
 .card-preview-text {
 	width: 100%;
 	height: 62px;
-	background: #304FFE;
+	background: #4484ff;
 	text-align: left;
 	padding: 8px 12px;
 	clear:both;
 	border-bottom-right-radius: 5px;
 	border-bottom-left-radius: 5px;
+	color: rgba(255,255,255,0.54);
 }
