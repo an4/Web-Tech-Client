@@ -1,7 +1,7 @@
 <div class="card-preview">
     <div class="card-preview-image">
-        <img src={{card.imageUrl}}></img>
+        <img ng-src="ng-bind: card.imageUrl;"></img>
     </div>
-    <div class="card-preview-title">{{card.title}}</div>
-    <div class="card-preview-text">{{card.text}}</div>
+    <div class="card-preview-title" data-ng-bind="card.title"></div>
+    <div class="card-preview-text" data-ng-bind="card.text"></div>
 </div>

@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html ng-app="myApp" xmlns="http://www.w3.org/1999/xhtml" lang="en-GB" xml:lang="en-GB">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-GB" xml:lang="en-GB">
 	<head>
 		<meta charset="UTF-8"/>
 
-		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans"></link>
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans"/>
 
-		<link rel="stylesheet" type="text/css" href="bower_components/angular-material/angular-material.css"></link>
-		<link rel="stylesheet" type="text/css" href="style/style.css"></link>
+		<link rel="stylesheet" type="text/css" href="bower_components/angular-material/angular-material.css"/>
+		<link rel="stylesheet" type="text/css" href="style/style.css"/>
 
-		<script src="bower_components/jquery/dist/jquery.js"></script>
+		<script src="bower_components/jQuery/dist/jquery.js"></script>
 
 		<script src="bower_components/angular/angular.js"></script>
 		<script src="bower_components/angular-animate/angular-animate.js"></script>
@@ -20,8 +20,9 @@
 		<script src="controller/CardsController.js"></script>
 		<title>Munich</title>
 	</head>
-	<body>
-		<ng-include src="'view/title.html'"></ng-include>
-		<ng-view></ng-view>
+	<body data-ng-app="myApp">
+		<data-ng-include src="'view/title.html'"></data-ng-include>
+		<div data-ng-view=""></div>
 	</body>
+
 </html>
