@@ -2,8 +2,9 @@
 
 var app = angular.module('myApp');
 
-app.controller('cardPreview', ['$scope', function($scope) {
+app.controller('cardPreview', ['$scope', '$location', function($scope, $location) {
     $scope.display = function() {
-        alert("abc");
+        var url = "/cards/" + $scope.card.cardId;
+        $location.path(url);
     };
 }]);
