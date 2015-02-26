@@ -2,7 +2,7 @@
 
 var app = angular.module('myApp');
 
-app.controller('CardController', ['$routeParams', '$scope', '$http',
+app.controller('card', ['$routeParams', '$scope', '$http',
     function($routeParams, $scope, $http) {
         $http.get('data/' + $routeParams.cardId + '.json').success(function(data) {
         $scope.card = data;

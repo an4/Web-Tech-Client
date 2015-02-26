@@ -12,11 +12,11 @@ app.config(['$locationProvider', '$routeProvider',
     $routeProvider.
         when('/cards', {
             templateUrl: 'view/cards.html',
-            controller: 'CardsController'
+            controller: 'cards'
         }).
         when('/cards/:cardId', {
             templateUrl: 'view/card.html',
-            controller: 'CardController'
+            controller: 'card'
         }).
         otherwise({
             redirectTo: '/cards'

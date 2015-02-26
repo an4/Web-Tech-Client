@@ -1,5 +1,3 @@
 <div class="cards">
-    <div class="block" data-ng-repeat="card in cards">
-        <data-ng-include src="'view/card-preview.html'"></data-ng-include>
-    </div>
+    <div ng-controller="cardPreview" class="block" data-ng-repeat="card in cards" data-ng-include="'view/card-preview.html'"></div>
 </div>
