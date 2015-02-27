@@ -1,7 +1,13 @@
 <div class="card">
     <div class="card-title">
-        <div class="card-title-text" ng-bind="card.title"></div>
+        <div class="card-title-text" data-ng-bind="card.title"></div>
+        <div class="card-title-icon" data-ng-click="back()"></div>
     </div>
-    <div class="card-text"></div>
-    <div class="card-body"></div>
+    <div class="card-body">
+        <div class="card-media">
+            <img></img>
+            <div class="more-img"></div>
+        </div>
+        <div class="card-text"></div>
+    </div>
 </div>
