@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   version="1.1"
+   width="32"
+   height="32"
+   id="svg2985">
+  <defs
+     id="defs2987">
+    <linearGradient
+       id="linearGradient5262">
+      <stop
+         id="stop5264"
+         style="stop-color:#000000;stop-opacity:1"
+         offset="0" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient5252">
+      <stop
+         id="stop5254"
+         style="stop-color:#000000;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop5256"
+         style="stop-color:#000000;stop-opacity:0"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient5234">
+      <stop
+         id="stop5236"
+         style="stop-color:#000000;stop-opacity:1"
+         offset="0" />
+    </linearGradient>
+    <radialGradient
+       cx="16.029932"
+       cy="16.014721"
+       r="16.529932"
+       fx="16.029932"
+       fy="16.014721"
+       id="radialGradient5258"
+       xlink:href="#linearGradient5252"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,1.0027012,0,-0.04325933)" />
+  </defs>
+  <metadata
+     id="metadata2990">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1">
+    <path
+       d="m 32.059864,16.014721 a 16.029932,16.074583 0 1 1 -32.059864,0 16.029932,16.074583 0 1 1 32.059864,0 z"
+       id="path2993"
+       style="fill:#000000;fill-opacity:1;stroke:url(#radialGradient5258);stroke-opacity:1" />
+    <text
+       x="15.628067"
+       y="32"
+       id="text2995"
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"><tspan
+         x="15.628067"
+         y="32"
+         id="tspan2997"></tspan></text>
+    <path
+       d="M 5.7802844,5.8990277 26.011667,26.130412"
+       id="path5260"
+       style="fill:#ff0000;fill-opacity:1;stroke:#dcdcdc;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <path
+       d="M 26.09753,5.9917748 5.7837285,26.126969"
+       id="path5280"
+       style="fill:#000000;fill-opacity:1;stroke:#dcdcdc;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+  </g>
+</svg>
