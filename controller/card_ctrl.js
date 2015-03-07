@@ -23,15 +23,16 @@ app.controller('card', ['$routeParams', '$scope', '$http', '$location', '$timeou
             i = 0;
             var transition = function() {
                 var old = $("#" + i);
-                old.hide(500);
                 i++;
                 if(i >= length) {
                     i = 0;
                 }
                 var current = $("#" + i);
-                current.show(500);
-
-                $timeout(transition, 10000);
+                old.hide(1000, function() {
+                    current.show(1000, function() {
+                        $timeout(transition, 10000);
+                    });
+                });
             }
 
             transition();
