@@ -154,6 +154,17 @@ img {
 	float: left;
 	border-radius: 0px 0px 0px 5px;
 	display: inline-block;
+	position: relative;
+}
+
+.image-transition {
+	position: absolute;
+	z-index: 50;
+}
+
+.loading {
+	position: absolute;
+	z-index: 49;
 }
 
 .coatofarms {
