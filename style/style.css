@@ -72,7 +72,7 @@ img {
 }
 
 .card-preview-title {
-	width: 306px;
+	width: 276px;
 	height: 27px;
 	font-weight: 900;
 	color: rgba(255,255,255,0.87);
@@ -84,7 +84,7 @@ img {
 }
 
 .card-preview-text {
-	width: 306px;
+	width: 276px;
 	height: 54px;
 	text-align: left;
 	clear:both;

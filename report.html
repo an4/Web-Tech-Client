@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-GB" xml:lang="en-GB">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Report</title>
+    </head>
+    <body>
+        <h1>Report</h1>
+        <h2>Introduction</h2>
+        <p>
+            I made a website about the city of Munich. It contains information about        popular attractions and sights in Munich.
+        </p>
+
+        <h2>Description</h2>
+        <img src='Report/main.png' width=800 height=450></img>
+        <p>
+            The image above shows the main page of the website.
+        </p>
+        <p>
+            The title bar under 1 is visible on all pages. Its size and the size of all containing elements including the font size are relative to the viewport size. On the right side there is the Coat of Arms of the City of Munich made using Inkscape.
+        </p>
+        <p>
+            Everything located under the title bar is dependent on the path. I am using AngularJs for routing. Based on the path, AngularJS loads a different template in the given area, without having to reload the title bar.
+        </p>
+        <p>
+            The main page shows a list of cards. The cards have fixed size. The information about the cards is loaded from a JSON file. The JSON file stores an array of cards. The website can support any number of cards. I used AngularJS to bind the data from the JSON file to the template. In AngularJS there are two ways of binding data: using the {{}} which can be assigned to both an element or an attribute but it is not HTML5 standard, so I could not use it, and using the directive data-ng-bind which only supports binding data to an element. In order to bind the url of the image to the src attribute of the img tag I had to write my own directive in AngularJS.
+        </p>
+        <p>
+            On hover the card changes its shadow as it can be seen under 2. The effect has been achievent using CSS. The card can be clicked on and it shows the bigger version of the card, changind the path and also the view. The result of clicking the first card can be seen below.
+        </p>
+        <img src="Report/card.png" height=500 width=800></img>
+        <p>
+            To go back to the main page the user can click on the x located in the top right corner of the card or click on the title.
+        </p>
+        <p>
+            The big card size is dependent on the viewport width. I am only using the width because I want the card to maintain its aspect ratio. The size of all the elements inside the big card are relative to the viewport width, including the font size.
+        </p>
+        <p>
+            The image under number 4 changes every 10 seconds. The images are preloaded using JavaScript. The elements are inserted into the DOM and all but one is hidden. Every ten seconds the current image is hidden and a new one is shown. If showing the image takes longer time than ususal there is a loading animation displayed in the background as it can be seen below.
+        </p>
+        <img src="Report/load.png" width=800 height=350></img>
+
+        <h2>Gimp</h2>
+        <p>
+            I used GIMP to alter all the images used on the website. All the images used for the big card have been scalled to 800x600. For some of them I changed the color levels, increasing the value of the Blue channel in order to look better on the blue background. I also applied different filters, trying to make the images fit better with the color scheme of the website. The images used for the small card have also been scaled to match the size of the card.
+        </p>
+        <img src="Report/gimp01.png" width=800 height=450></img>
+        <img src="Report/gimp03.png" width=800 height=450></img>
+        <img src="Report/gimp04.png" width=800 height=450></img>
+
+        <h2>Inkscape</h2>
+        <p>
+            I used Inkscape to create the Coat of Arms of the City of Munich and the icon on the big card used for going back to the main page.
+        </p>
+        <img src="Report/coatofarms01.png" width=600 height=300></img>
+        <img src="Report/coatofarms02.png" width=600 height=300></img>
+        <img src="Report/coatofarms03.png" width=600 height=300></img>
+        <img src="Report/coatofarms04.png" width=600 height=300></img>
+        <img src="Report/coatofarms05.png" width=600 height=300></img>
+        <img src="Report/coatofarms06.png" width=600 height=300></img>
+        <img src="Report/coatofarms07.png" width=600 height=300></img>
+        <img src="Report/coatofarms08.png" width=600 height=300></img>
+        <img src="Report/coatofarms09.png" width=600 height=300></img>
+        <img src="Report/coatofarms10.png" width=600 height=300></img>
+        <img src="Report/inkscape01.png" width=600 height=300></img>
+        <img src="Report/inkscape02.png" width=600 height=300></img>
+        <img src="Report/inkscape03.png" width=600 height=300></img>
+        <img src="Report/inkscape04.png" width=600 height=300></img>
+        <img src="Report/inkscape05.png" width=600 height=300></img>
+    </body>
+</html>
